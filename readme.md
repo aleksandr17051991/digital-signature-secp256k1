@@ -1,4 +1,4 @@
-# Digital Signature with Encrypted EC Keys in .env
+# Digital Signature with ECDSA (secp256k1)
 
 A simple example of generating, storing, and using digital signatures in Node.js `crypto` with EC (secp256k1) keys, where the private key is password-protected and stored in `.env` in PEM format.
 
