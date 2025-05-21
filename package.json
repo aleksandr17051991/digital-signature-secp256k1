@@ -1,0 +1,15 @@
+{
+  "name": "digital-signature-project",
+  "version": "1.0.0",
+  "description": "generate keys with \"secp256k1\" and create digital signature",
+  "main": "sign_and_varify.js",
+  "scripts": {
+    "generate-keys": "node generateKeyPair.js",
+    "sign-verify": "node sign_and_verify.js"
+  },
+  "author": "Oleksandr",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
